@@ -17,7 +17,7 @@ function animateOpen(){
     
     //1
     topLine.style.width="80%";
-    topLine.style.left="0";
+    topLine.style.left="10%";
     
 
     //2
