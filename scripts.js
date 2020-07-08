@@ -27,7 +27,7 @@ function animateOpen(){
         //3
         setTimeout(function(){
             
-            midLine.style.height="30vh";
+            midLine.style.height="300px";
             midLine.style.top="500px";
             
             topLine.style.opacity="0";
