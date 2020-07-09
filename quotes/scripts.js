@@ -75,7 +75,7 @@ function randomQuote(){
     var imgLink = document.getElementById("imgLink");
     
     var photo = document.getElementById("pic");
-    photo.src = "images/people/default.png";
+    photo.src = "quotes/images/people/default.png";
     
     //RANDOM num from 0 to __
     var randNum = Math.floor(Math.random() * 38); 
@@ -83,7 +83,7 @@ function randomQuote(){
     
     
     //setting photo based on number
-    photo.src = "images/people/"+randNum+".jpg";
+    photo.src = "quotes/images/people/"+randNum+".jpg";
     
     
     
