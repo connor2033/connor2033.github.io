@@ -27,6 +27,8 @@ function animateOpen(){
         
         //3
         setTimeout(function(){
+            var cover = document.getElementById("cover");
+            cover.style.opacity = '0';
             
             midLine.style.height="300px";
             midLine.style.top="450px";
